@@ -1,0 +1,39 @@
+.modal-review.modal.fade(tabindex="-1" role="dialog" data-keyboard="false" aria-hidden="true")
+    .modal-dialog.modal-dialog-centered(role="document")
+        .modal-content
+            button.close-popup(type="button" data-dismiss="modal" aria-hidden="true")
+                svg(xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none")
+                    path(d="M18.25 1.75195L1.75085 18.2511" stroke="#202020" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel")
+                    path(d="M1.75 1.75L18.2492 18.2492" stroke="#202020" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel")
+            .modal-body
+                //.info
+                    svg(xmlns="http://www.w3.org/2000/svg" width="102" height="102" viewBox="0 0 102 102" fill="none")
+                        circle(cx="51" cy="51" r="49" stroke="#202020" stroke-width="4")
+                        path(d="M32.125 51.5L45.25 64.625L71.5 38.375" stroke="#202020" stroke-width="4" stroke-linecap="round" stroke-linejoin="round")
+                    p.title Спасибо!
+                    p.subtitle Спасибо, ваше мнение важно для нас!
+                form
+                    p.title Оставьте свой отзыв
+                    .groups
+                        .group
+                            label Ваше имя
+                            input(type="text" name="name")
+                        .group
+                            label Телефон
+                            input(type="text" name="phone")
+                    .group
+                        label Напишите свой отзыв
+                        textarea
+                    .files
+                        label
+                            svg(xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none")
+                                circle(cx="14" cy="14" r="13" stroke="#868686" stroke-width="2")
+                                line(x1="14" y1="8" x2="14" y2="20" stroke="#868686" stroke-width="2" stroke-linecap="round")
+                                line(x1="20" y1="14" x2="8" y2="14" stroke="#868686" stroke-width="2" stroke-linecap="round")
+                            span Перетащите ваше фото или загрузите с компьютера
+                            input(type="file")
+                        p Вы можете загрузить изображение в формате JPG, GIF или PNG.
+                    input.btn(type="submit" value="Оставить отзыв")
+
+
+

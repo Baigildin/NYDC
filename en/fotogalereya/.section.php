@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Photogallery";
+$arDirProperties = Array(
+
+);
+?>

@@ -1,0 +1,142 @@
+doctype html
+html(lang="ru-RU")
+    head
+        include modules/head.pug
+
+    body
+
+        include modules/header.pug
+        #hidden-block
+        .fixed
+            .container
+                .sidebar
+                    ul
+                        li
+                            a.active(href='#')
+                                svg(xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none")
+                                    path(d="M9.19405 20H5.86072L20.8607 5L35.8607 20H32.5274" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                    path(d="M9.19403 20V31.6667C9.19403 32.5507 9.54522 33.3986 10.1703 34.0237C10.7955 34.6488 11.6433 35 12.5274 35H29.194C30.0781 35 30.9259 34.6488 31.5511 34.0237C32.1762 33.3986 32.5274 32.5507 32.5274 31.6667V20" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                    path(d="M15.8607 35.0001V25.0001C15.8607 24.116 16.2119 23.2682 16.837 22.6431C17.4622 22.0179 18.31 21.6667 19.1941 21.6667H22.5274C23.4114 21.6667 24.2593 22.0179 24.8844 22.6431C25.5095 23.2682 25.8607 24.116 25.8607 25.0001V35.0001" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                | Главная
+                        li
+                            a(href='#')
+                                svg(xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none")
+                                    path(d="M14.194 13.3334V10.0001C14.194 9.11603 14.5452 8.26818 15.1703 7.64306C15.7955 7.01794 16.6433 6.66675 17.5274 6.66675H24.194C25.0781 6.66675 25.9259 7.01794 26.5511 7.64306C27.1762 8.26818 27.5274 9.11603 27.5274 10.0001V13.3334" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                    path(d="M30.8607 13.3333H10.8607C9.01979 13.3333 7.5274 14.8256 7.5274 16.6666V29.9999C7.5274 31.8409 9.01979 33.3333 10.8607 33.3333H30.8607C32.7017 33.3333 34.1941 31.8409 34.1941 29.9999V16.6666C34.1941 14.8256 32.7017 13.3333 30.8607 13.3333Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                    path(d="M17.5274 23.3333H24.1941" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                    path(d="M20.8607 20V26.6667" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                | Врачи
+                        li
+                            a(href='#')
+                                svg(xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none")
+                                    path(d="M22.5274 5C22.9694 5 23.3933 5.17559 23.7059 5.48816C24.0184 5.80072 24.194 6.22464 24.194 6.66667V14.225L30.7407 10.4467C31.1235 10.2257 31.5784 10.1658 32.0054 10.2802C32.4323 10.3946 32.7964 10.6739 33.0174 11.0567L34.684 13.9433C34.905 14.3261 34.9649 14.781 34.8505 15.208C34.7361 15.635 34.4568 15.999 34.074 16.22L27.529 20L34.074 23.7817C34.4568 24.0027 34.7361 24.3667 34.8505 24.7937C34.9649 25.2206 34.905 25.6755 34.684 26.0583L33.0174 28.945C32.7964 29.3278 32.4323 29.6071 32.0054 29.7215C31.5784 29.8359 31.1235 29.776 30.7407 29.555L24.194 25.7733V33.3333C24.194 33.7754 24.0184 34.1993 23.7059 34.5118C23.3933 34.8244 22.9694 35 22.5274 35H19.194C18.752 35 18.3281 34.8244 18.0155 34.5118C17.703 34.1993 17.5274 33.7754 17.5274 33.3333V25.7733L10.9807 29.5533C10.5979 29.7743 10.143 29.8342 9.71604 29.7198C9.28909 29.6054 8.92506 29.3261 8.70404 28.9433L7.03737 26.0567C6.81637 25.6739 6.75648 25.219 6.87088 24.792C6.98527 24.365 7.26459 24.001 7.64737 23.78L14.1924 20L7.64737 16.22C7.26459 15.999 6.98527 15.635 6.87088 15.208C6.75648 14.781 6.81637 14.3261 7.03737 13.9433L8.70404 11.0567C8.92506 10.6739 9.28909 10.3946 9.71604 10.2802C10.143 10.1658 10.5979 10.2257 10.9807 10.4467L17.5274 14.225V6.66667C17.5274 6.22464 17.703 5.80072 18.0155 5.48816C18.3281 5.17559 18.752 5 19.194 5H22.5274Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                | Услуги
+                        li
+                            a(href='#')
+                                svg(xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none")
+                                    path(d="M5.8606 33.3334L8.02726 26.8334C6.15467 24.0638 5.47725 20.7841 6.12096 17.6039C6.76467 14.4237 8.6857 11.5595 11.5269 9.54384C14.368 7.52818 17.936 6.49821 21.5674 6.64545C25.1988 6.79269 28.6465 8.10711 31.2694 10.3443C33.8923 12.5815 35.512 15.5893 35.8274 18.8084C36.1427 22.0274 35.1322 25.2388 32.9837 27.8453C30.8352 30.4518 27.695 32.2761 24.1469 32.979C20.5988 33.6819 16.8843 33.2156 13.6939 31.6667L5.8606 33.3334" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                    path(d="M14.1939 21.6666L19.1939 18.3333L22.5272 21.6666L27.5272 18.3333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                | Отзывы
+                        li
+                            a(href='#')
+                                svg(xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none")
+                                    path(d="M9.19405 6.66675H15.8607L19.1941 15.0001L15.0274 17.5001C16.8123 21.1193 19.7415 24.0485 23.3607 25.8334L25.8607 21.6667L34.1941 25.0001V31.6667C34.1941 32.5508 33.8429 33.3987 33.2177 34.0238C32.5926 34.6489 31.7448 35.0001 30.8607 35.0001C24.3595 34.605 18.2276 31.8442 13.6221 27.2387C9.01656 22.6332 6.2558 16.5013 5.86072 10.0001C5.86072 9.11603 6.21191 8.26818 6.83703 7.64306C7.46215 7.01794 8.31 6.66675 9.19405 6.66675" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                | Контакты
+                #up-arrow
+                    svg(xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none")
+                        path(d="M14 4.83325V16.2916" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        path(d="M14 4.83325L18.5833 9.41659" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        path(d="M14 4.83325L9.41663 9.41659" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        path(d="M4.83337 23.1667H23.1667" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+
+        .breadcrumb
+            .container
+                ul
+                    li
+                        a(href='#') Главная
+                    li
+                        a(href='#') Специалисты
+
+        .specialists-wrapper
+            .container
+                h1 Наши врачи
+                .row.pl
+                    .col-lg-11
+                        .headline-filter
+                            .speciality
+                                mixin SelectBox(name, options)
+                                    .select-box
+                                        .select-box__current(tabindex="1")
+                                            each option, index in options
+                                                .select-box__value
+                                                    input.select-box__input(type="radio" id=index value=option.value name=name checked=option.checked)
+                                                    p.select-box__input-text #{option.name}
+                                            svg.select-box__icon(width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg")
+                                                path(d="M1.24219 9L5.48483 4.75736L1.24219 0.514719" stroke="#000000" stroke-width="1.2")
+                                        ul.select-box__list
+                                            each option, index in options
+                                                li
+                                                    label.select-box__option(for=index aria-hidden) #{option.name}
+                                +SelectBox('objects', [
+                                    {name: 'Все специальности', value: '1', checked: true},
+                                    {name: 'Главный врач', value: '2'},
+                                    {name: 'Стоматолог-терапевт', value: '3'},
+                                    {name: 'Стоматолог-профилактолог', value: '4'},
+                                    {name: 'Гигиенист', value: '5'},
+                                    {name: 'Стоматолог-хирург', value: '6'},
+                                    {name: 'Ортопед', value: '7'},
+                                    {name: 'Имплантолог', value: '8'},
+                                    {name: 'Реставрация зубов', value: '9'},
+                                    {name: 'Эндодонтист', value: '10'},
+                                    {name: 'Эстетическая стоматология', value: '11'},
+                                    {name: 'Стоматолог-ортодонт', value: '12'},
+                                    {name: 'Старшая медсестра', value: '13'},
+                                ])
+                            .speciality-search
+                                input(type="text" name="search" id="speciality-search" placeholder='Поиск врача по ФИО')
+                        .specialists-inner-wrapper
+                            a.item(href='doctor.html')
+                                .image(style='background-image: url(../img/spec1.png);')
+                                .description
+                                    p.name Сурмило Елена Анатольевна
+                                    .line
+                                    p Главный врач клиники, <br>стоматолог-ортопед, <br>эстетическая стоматология
+                            a.item(href='doctor.html')
+                                .image(style='background-image: url(../img/spec2.png);')
+                                .description
+                                    p.name Златанова   Анастасия Ивановна
+                                    .line
+                                    p Стоматолог-терапевт, <br>эндодонтист
+                            a.item(href='doctor.html')
+                                .image(style='background-image: url(../img/spec3.png);')
+                                .description
+                                    p.name Купреев Александр Михайлович
+                                    .line
+                                    p Стоматолог-хирург, <br>имплантолог
+                            a.item(href='doctor.html')
+                                .image(style='background-image: url(../img/spec4.png);')
+                                .description
+                                    p.name Макеева Татьяна Андреевна
+                                    .line
+                                    p Стоматолог-терапевт, <br>художественная <br>реставрация зубов
+                            a.item(href='doctor.html')
+                                .image(style='background-image: url(../img/spec5.png);')
+                                .description
+                                    p.name Недодел Андрей Дмитриевич
+                                    .line
+                                    p Стоматолог-профилактолог, <br>гигиенист
+                            a.item(href='doctor.html')
+                                .image(style='background-image: url(../img/spec6.png);')
+                                .description
+                                    p.name Юскаев Денис Юрьевич
+                                    .line
+                                    p Стоматолог-ортодонт
+                        .more-btn
+                            button.btn(type='button') Все специалисты
+
+
+
+        include modules/footer.pug
+        include modules/mobile-menu.pug
+        //objects
+        include modules/scripts.pug

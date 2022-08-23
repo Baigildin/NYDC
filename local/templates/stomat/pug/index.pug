@@ -1,0 +1,379 @@
+doctype html
+html(lang="ru-RU")
+    head
+        include modules/head.pug
+
+    body
+
+        include modules/header.pug
+        #hidden-block
+        .fixed
+            .container
+                .sidebar
+                    ul
+                        li
+                            a.active(href='#')
+                                svg(xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none")
+                                    path(d="M9.19405 20H5.86072L20.8607 5L35.8607 20H32.5274" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                    path(d="M9.19403 20V31.6667C9.19403 32.5507 9.54522 33.3986 10.1703 34.0237C10.7955 34.6488 11.6433 35 12.5274 35H29.194C30.0781 35 30.9259 34.6488 31.5511 34.0237C32.1762 33.3986 32.5274 32.5507 32.5274 31.6667V20" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                    path(d="M15.8607 35.0001V25.0001C15.8607 24.116 16.2119 23.2682 16.837 22.6431C17.4622 22.0179 18.31 21.6667 19.1941 21.6667H22.5274C23.4114 21.6667 24.2593 22.0179 24.8844 22.6431C25.5095 23.2682 25.8607 24.116 25.8607 25.0001V35.0001" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                | Главная
+                        li
+                            a(href='#')
+                                svg(xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none")
+                                    path(d="M14.194 13.3334V10.0001C14.194 9.11603 14.5452 8.26818 15.1703 7.64306C15.7955 7.01794 16.6433 6.66675 17.5274 6.66675H24.194C25.0781 6.66675 25.9259 7.01794 26.5511 7.64306C27.1762 8.26818 27.5274 9.11603 27.5274 10.0001V13.3334" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                    path(d="M30.8607 13.3333H10.8607C9.01979 13.3333 7.5274 14.8256 7.5274 16.6666V29.9999C7.5274 31.8409 9.01979 33.3333 10.8607 33.3333H30.8607C32.7017 33.3333 34.1941 31.8409 34.1941 29.9999V16.6666C34.1941 14.8256 32.7017 13.3333 30.8607 13.3333Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                    path(d="M17.5274 23.3333H24.1941" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                    path(d="M20.8607 20V26.6667" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                | Врачи
+                        li
+                            a(href='#')
+                                svg(xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none")
+                                    path(d="M22.5274 5C22.9694 5 23.3933 5.17559 23.7059 5.48816C24.0184 5.80072 24.194 6.22464 24.194 6.66667V14.225L30.7407 10.4467C31.1235 10.2257 31.5784 10.1658 32.0054 10.2802C32.4323 10.3946 32.7964 10.6739 33.0174 11.0567L34.684 13.9433C34.905 14.3261 34.9649 14.781 34.8505 15.208C34.7361 15.635 34.4568 15.999 34.074 16.22L27.529 20L34.074 23.7817C34.4568 24.0027 34.7361 24.3667 34.8505 24.7937C34.9649 25.2206 34.905 25.6755 34.684 26.0583L33.0174 28.945C32.7964 29.3278 32.4323 29.6071 32.0054 29.7215C31.5784 29.8359 31.1235 29.776 30.7407 29.555L24.194 25.7733V33.3333C24.194 33.7754 24.0184 34.1993 23.7059 34.5118C23.3933 34.8244 22.9694 35 22.5274 35H19.194C18.752 35 18.3281 34.8244 18.0155 34.5118C17.703 34.1993 17.5274 33.7754 17.5274 33.3333V25.7733L10.9807 29.5533C10.5979 29.7743 10.143 29.8342 9.71604 29.7198C9.28909 29.6054 8.92506 29.3261 8.70404 28.9433L7.03737 26.0567C6.81637 25.6739 6.75648 25.219 6.87088 24.792C6.98527 24.365 7.26459 24.001 7.64737 23.78L14.1924 20L7.64737 16.22C7.26459 15.999 6.98527 15.635 6.87088 15.208C6.75648 14.781 6.81637 14.3261 7.03737 13.9433L8.70404 11.0567C8.92506 10.6739 9.28909 10.3946 9.71604 10.2802C10.143 10.1658 10.5979 10.2257 10.9807 10.4467L17.5274 14.225V6.66667C17.5274 6.22464 17.703 5.80072 18.0155 5.48816C18.3281 5.17559 18.752 5 19.194 5H22.5274Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                | Услуги
+                        li
+                            a(href='#')
+                                svg(xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none")
+                                    path(d="M5.8606 33.3334L8.02726 26.8334C6.15467 24.0638 5.47725 20.7841 6.12096 17.6039C6.76467 14.4237 8.6857 11.5595 11.5269 9.54384C14.368 7.52818 17.936 6.49821 21.5674 6.64545C25.1988 6.79269 28.6465 8.10711 31.2694 10.3443C33.8923 12.5815 35.512 15.5893 35.8274 18.8084C36.1427 22.0274 35.1322 25.2388 32.9837 27.8453C30.8352 30.4518 27.695 32.2761 24.1469 32.979C20.5988 33.6819 16.8843 33.2156 13.6939 31.6667L5.8606 33.3334" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                    path(d="M14.1939 21.6666L19.1939 18.3333L22.5272 21.6666L27.5272 18.3333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                | Отзывы
+                        li
+                            a(href='#')
+                                svg(xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none")
+                                    path(d="M9.19405 6.66675H15.8607L19.1941 15.0001L15.0274 17.5001C16.8123 21.1193 19.7415 24.0485 23.3607 25.8334L25.8607 21.6667L34.1941 25.0001V31.6667C34.1941 32.5508 33.8429 33.3987 33.2177 34.0238C32.5926 34.6489 31.7448 35.0001 30.8607 35.0001C24.3595 34.605 18.2276 31.8442 13.6221 27.2387C9.01656 22.6332 6.2558 16.5013 5.86072 10.0001C5.86072 9.11603 6.21191 8.26818 6.83703 7.64306C7.46215 7.01794 8.31 6.66675 9.19405 6.66675" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                | Контакты
+                #up-arrow
+                    svg(xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none")
+                        path(d="M14 4.83325V16.2916" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        path(d="M14 4.83325L18.5833 9.41659" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        path(d="M14 4.83325L9.41663 9.41659" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        path(d="M4.83337 23.1667H23.1667" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+
+        .mainscreen(style='background-image: url(../img/mainimg.png);')
+            .container
+                .row
+                    .col-lg-11.col-md-12
+                        .main-slider.owl-carousel.owl-theme
+                            .item
+                                p.title Сертифицированный <br>доктор <span>NY University</span>
+                                .tags
+                                    .tag
+                                        p Оперативное <span>лечение без боли</span>
+                                    .tag
+                                        p У каждого специалиста клиники <span>зарубежный диплом</span>
+                                button.btn(type='button') Записаться на приём
+                            .item
+                                p.title Сертифицированный <br>доктор <span>NY University</span>
+                                    .tags
+                                        .tag
+                                            p Оперативное <span>лечение без боли</span>
+                                        .tag
+                                            p У каждого специалиста клиники <span>зарубежный диплом</span>
+                                    button.btn(type='button') Записаться на приём
+                            .item
+                                p.title Сертифицированный <br>доктор <span>NY University</span>
+                                    .tags
+                                        .tag
+                                            p Оперативное <span>лечение без боли</span>
+                                        .tag
+                                            p У каждого специалиста клиники <span>зарубежный диплом</span>
+                                    button.btn(type='button') Записаться на приём
+                            .item
+                                p.title Сертифицированный <br>доктор <span>NY University</span>
+                                    .tags
+                                        .tag
+                                            p Оперативное <span>лечение без боли</span>
+                                        .tag
+                                            p У каждого специалиста клиники <span>зарубежный диплом</span>
+                                    button.btn(type='button') Записаться на приём
+
+        .privelege
+            .container
+                .row
+                    .col-xl-10.offset-xl-1.col-lg-11
+                        .wrapper
+                            .item
+                                .plus
+                                    svg(xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none")
+                                        path(d="M11 3.72729V18.2727" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                        path(d="M3.72726 11H18.2727" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                p Уютная обстановка <br>в клинике
+                            .item
+                                .plus
+                                    svg(xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none")
+                                        path(d="M11 3.72729V18.2727" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                        path(d="M3.72726 11H18.2727" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                p Консультация и лечение <br>от докторов NY
+                            .item
+                                .plus
+                                    svg(xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none")
+                                        path(d="M11 3.72729V18.2727" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                        path(d="M3.72726 11H18.2727" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                p Самое передовое <br>оборудование
+                            .item
+                                .plus
+                                    svg(xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none")
+                                        path(d="M11 3.72729V18.2727" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                        path(d="M3.72726 11H18.2727" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                p Используем последние разработки <br>современной стоматологии
+
+
+
+        .about
+            .image(style='background-image: url(../img/aboutimg.png);')
+            .container
+                .row
+                    .col-xl-4.offset-xl-7.col-lg-5.offset-lg-5.col-md-7.offset-md-5
+                        .item
+                            p.title О клинике
+                            p NYDC - это дружный коллектив настоящих профессионалов своего дела.
+                            p Наша миссия – комплексно решать ваши стоматологические проблемы и предотвращение их появления в будущем.
+                            p Мы будем рады видеть вас в числе наших клиентов, которых уже украшают счастливые здоровые улыбки!
+                            button.btn(type='button') Напишите нам
+
+        .examples
+            .container
+                h2 Примеры наших работ
+                .row
+                    .col-lg-11.col-md-12
+                        .examples-slider.owl-carousel.owl-theme
+                            .item
+                                .sliderBA(data-auto-animation="false" data-dividing-line="2px solid #FFFFFF")
+                                    .images
+                                        .image-rgt(data-src="../img/after.png")
+                                        .image-lft(data-src="../img/before.png")
+                                    .ui
+                                        .dragger
+                                            svg(xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none")
+                                                path(d="M23.0399 12.5C23.0399 18.5479 18.0815 23.4622 11.9508 23.4622C5.82012 23.4622 0.86178 18.5479 0.86178 12.5C0.86178 6.45211 5.82012 1.53781 11.9508 1.53781C18.0815 1.53781 23.0399 6.45211 23.0399 12.5Z" stroke="white" stroke-width="1.2426")
+                                                path(fill-rule="evenodd" clip-rule="evenodd" d="M19.3445 12.5044C19.3433 12.663 19.2818 12.8213 19.1601 12.9417L16.2913 15.7794C16.0474 16.0207 15.654 16.0186 15.4127 15.7746C15.1714 15.5307 15.1735 15.1373 15.4175 14.896L17.8397 12.5L15.4175 10.104C15.1735 9.8627 15.1714 9.46932 15.4127 9.22536C15.654 8.98141 16.0474 8.97927 16.2913 9.22058L19.1601 12.0583C19.2391 12.1364 19.2928 12.2305 19.321 12.3303C19.3371 12.3871 19.3449 12.4458 19.3445 12.5044ZM6.27028 12.5L8.69252 14.896C8.93647 15.1373 8.93861 15.5307 8.6973 15.7746C8.456 16.0186 8.06262 16.0207 7.81866 15.7794L4.94988 12.9417C4.76225 12.7561 4.71766 12.4806 4.81687 12.2522C4.84751 12.1817 4.89186 12.1157 4.94989 12.0583L7.81866 9.22058C8.06261 8.97927 8.456 8.98141 8.6973 9.22536C8.93861 9.46932 8.93647 9.8627 8.69252 10.104L6.27028 12.5Z" fill="white")
+                                .discription
+                                    p.title Пациент 1
+                                    p Замена старых пломб на керамические виниры
+                            .item
+                                .sliderBA(data-auto-animation="false" data-dividing-line="2px solid #FFFFFF")
+                                    .images
+                                        .image-rgt(data-src="../img/after.png")
+                                        .image-lft(data-src="../img/before.png")
+                                    .ui
+                                        .dragger
+                                            svg(xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none")
+                                                path(d="M23.0399 12.5C23.0399 18.5479 18.0815 23.4622 11.9508 23.4622C5.82012 23.4622 0.86178 18.5479 0.86178 12.5C0.86178 6.45211 5.82012 1.53781 11.9508 1.53781C18.0815 1.53781 23.0399 6.45211 23.0399 12.5Z" stroke="white" stroke-width="1.2426")
+                                                path(fill-rule="evenodd" clip-rule="evenodd" d="M19.3445 12.5044C19.3433 12.663 19.2818 12.8213 19.1601 12.9417L16.2913 15.7794C16.0474 16.0207 15.654 16.0186 15.4127 15.7746C15.1714 15.5307 15.1735 15.1373 15.4175 14.896L17.8397 12.5L15.4175 10.104C15.1735 9.8627 15.1714 9.46932 15.4127 9.22536C15.654 8.98141 16.0474 8.97927 16.2913 9.22058L19.1601 12.0583C19.2391 12.1364 19.2928 12.2305 19.321 12.3303C19.3371 12.3871 19.3449 12.4458 19.3445 12.5044ZM6.27028 12.5L8.69252 14.896C8.93647 15.1373 8.93861 15.5307 8.6973 15.7746C8.456 16.0186 8.06262 16.0207 7.81866 15.7794L4.94988 12.9417C4.76225 12.7561 4.71766 12.4806 4.81687 12.2522C4.84751 12.1817 4.89186 12.1157 4.94989 12.0583L7.81866 9.22058C8.06261 8.97927 8.456 8.98141 8.6973 9.22536C8.93861 9.46932 8.93647 9.8627 8.69252 10.104L6.27028 12.5Z" fill="white")
+                                .discription
+                                    p.title Пациент 2
+                                    p Лечение патологической стираемости зубов с помощью циркониевых коронок . Цвет блич (цвет отбелённых зубов), выбирала Пациентка. Хотела супер ровные супер белые зубы
+                            .item
+                                .sliderBA(data-auto-animation="false" data-dividing-line="2px solid #FFFFFF")
+                                    .images
+                                        .image-rgt(data-src="../img/after.png")
+                                        .image-lft(data-src="../img/before.png")
+                                    .ui
+                                        .dragger
+                                            svg(xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none")
+                                                path(d="M23.0399 12.5C23.0399 18.5479 18.0815 23.4622 11.9508 23.4622C5.82012 23.4622 0.86178 18.5479 0.86178 12.5C0.86178 6.45211 5.82012 1.53781 11.9508 1.53781C18.0815 1.53781 23.0399 6.45211 23.0399 12.5Z" stroke="white" stroke-width="1.2426")
+                                                path(fill-rule="evenodd" clip-rule="evenodd" d="M19.3445 12.5044C19.3433 12.663 19.2818 12.8213 19.1601 12.9417L16.2913 15.7794C16.0474 16.0207 15.654 16.0186 15.4127 15.7746C15.1714 15.5307 15.1735 15.1373 15.4175 14.896L17.8397 12.5L15.4175 10.104C15.1735 9.8627 15.1714 9.46932 15.4127 9.22536C15.654 8.98141 16.0474 8.97927 16.2913 9.22058L19.1601 12.0583C19.2391 12.1364 19.2928 12.2305 19.321 12.3303C19.3371 12.3871 19.3449 12.4458 19.3445 12.5044ZM6.27028 12.5L8.69252 14.896C8.93647 15.1373 8.93861 15.5307 8.6973 15.7746C8.456 16.0186 8.06262 16.0207 7.81866 15.7794L4.94988 12.9417C4.76225 12.7561 4.71766 12.4806 4.81687 12.2522C4.84751 12.1817 4.89186 12.1157 4.94989 12.0583L7.81866 9.22058C8.06261 8.97927 8.456 8.98141 8.6973 9.22536C8.93861 9.46932 8.93647 9.8627 8.69252 10.104L6.27028 12.5Z" fill="white")
+                                .discription
+                                    p.title Пациент 3
+                                    p Закрытие промежутков между зубами с помощью виниров на нижней челюсти
+                            .item
+                                .sliderBA(data-auto-animation="false" data-dividing-line="2px solid #FFFFFF")
+                                    .images
+                                        .image-rgt(data-src="../img/after.png")
+                                        .image-lft(data-src="../img/before.png")
+                                    .ui
+                                        .dragger
+                                            svg(xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none")
+                                                path(d="M23.0399 12.5C23.0399 18.5479 18.0815 23.4622 11.9508 23.4622C5.82012 23.4622 0.86178 18.5479 0.86178 12.5C0.86178 6.45211 5.82012 1.53781 11.9508 1.53781C18.0815 1.53781 23.0399 6.45211 23.0399 12.5Z" stroke="white" stroke-width="1.2426")
+                                                path(fill-rule="evenodd" clip-rule="evenodd" d="M19.3445 12.5044C19.3433 12.663 19.2818 12.8213 19.1601 12.9417L16.2913 15.7794C16.0474 16.0207 15.654 16.0186 15.4127 15.7746C15.1714 15.5307 15.1735 15.1373 15.4175 14.896L17.8397 12.5L15.4175 10.104C15.1735 9.8627 15.1714 9.46932 15.4127 9.22536C15.654 8.98141 16.0474 8.97927 16.2913 9.22058L19.1601 12.0583C19.2391 12.1364 19.2928 12.2305 19.321 12.3303C19.3371 12.3871 19.3449 12.4458 19.3445 12.5044ZM6.27028 12.5L8.69252 14.896C8.93647 15.1373 8.93861 15.5307 8.6973 15.7746C8.456 16.0186 8.06262 16.0207 7.81866 15.7794L4.94988 12.9417C4.76225 12.7561 4.71766 12.4806 4.81687 12.2522C4.84751 12.1817 4.89186 12.1157 4.94989 12.0583L7.81866 9.22058C8.06261 8.97927 8.456 8.98141 8.6973 9.22536C8.93861 9.46932 8.93647 9.8627 8.69252 10.104L6.27028 12.5Z" fill="white")
+                                .discription
+                                    p.title Пациент 4
+                                    p Закрытие промежутков между зубами с помощью виниров на нижней челюсти
+                        button.btn(type='button') Записаться на приём
+
+        .specialists
+            .container
+                h2 Специалисты
+                .row
+                    .col-lg-11.col-md-12
+                        .specialists-slider.owl-carousel.owl-theme
+                            a.item(href='doctor.html')
+                                .image(style='background-image: url(../img/doctor1.png);')
+                                .description
+                                    p.name Сурмило Елена Анатольевна
+                                    .line
+                                    p Стоматолог-ортопед, <br>главный врач
+                            a.item(href='doctor.html')
+                                .image(style='background-image: url(../img/doctor2.png);')
+                                .description
+                                    p.name Купреев Александр Михайлович
+                                    .line
+                                    p Стоматолог-хирург, <br>имплантолог
+                            a.item(href='doctor.html')
+                                .image(style='background-image: url(../img/doctor3.png);')
+                                .description
+                                    p.name Мечников Евгений Анатольевич
+                                    .line
+                                    p Стоматолог-хирург
+                            a.item(href='doctor.html')
+                                .image(style='background-image: url(../img/doctor1.png);')
+                                .description
+                                    p.name Сурмило Елена Анатольевна
+                                    .line
+                                    p Стоматолог-ортопед, <br>главный врач
+                        a.btn(href='#') Все специалисты
+
+        .services(style='background-image: url(../img/servicesimg.png);')
+            .container
+                h2 Услуги
+                p.subtitle Персональная помощь и консультирование
+                .row.pl
+                    .col-lg-11.col-md-12
+                        .row
+                            .col-3.item-wrap
+                                .item
+                                    p.title Консультация
+                                    p Осмотр врача:<br>ортодонта, терапевта, ортопеда <br>или хирурга
+                                    a.btn(href='#') Подробнее
+                            .col-3.item-wrap
+                                .item
+                                    p.title Гигиена и профилактика
+                                    p Профессиональная гигиена, фторирование, отбеливание и др.
+                                    a.btn(href='#') Подробнее
+                            .col-3.item-wrap
+                                .item
+                                    p.title Пародонтология
+                                    p Шинирование, кюретаж, аппликация лекарственного препарата и тд.
+                                    a.btn(href='#') Подробнее
+                            .col-3.item-wrap
+                                .item
+                                    p.title Терапия
+                                    p Наложение временной пломбы, восстановление зуба пломбой, запечатывание герметиком
+                                    a.btn(href='#') Подробнее
+                            .col-3.item-wrap
+                                .item
+                                    p.title Эндодонтия
+                                    p Лечение пульпита и периодонтита, ретроградное пломбирование каналов и др.
+                                    a.btn(href='#') Подробнее
+                            .col-3.item-wrap
+                                .item
+                                    p.title Хирургия
+                                    p Удаление зуба, имплантация, лечение альвеолита, пластика десны, лоскутная операция и др.
+                                    a.btn(href='#') Подробнее
+                            .col-3.item-wrap
+                                .item
+                                    p.title Протезирование
+                                    p Восстановление зуба коронкой и вкладками, протезирование зуба с использованием имплантата и др.
+                                    a.btn(href='#') Подробнее
+                            .col-3.item-wrap
+                                .item
+                                    p.title Ортопедия
+                                    p Снятие оттисков, определение прикуса, восковое моделирование WAX-UP
+                                    a.btn(href='#') Подробнее
+                            .col-3.item-wrap
+                                .item
+                                    p.title Ортодонтия
+                                    p Коррекция с использованием Invisiling, брекет-системы, элайнеры. Ремонт ортодонтического аппарата
+                                    a.btn(href='#') Подробнее
+
+        .form
+            .container
+                h2 Заявка на обратный звонок
+                .row
+                    .col-lg-11.col-md-12
+                        form
+                            .group
+                                label Ваше имя
+                                input(type="text" name="name")
+                            .group
+                                label Телефон
+                                input(type="text" name="phone" placeholder="+7 ")
+                            input(type="submit" value="Записаться на приём")
+                        p Ввод номера телефона подтверждает ваше согласие c <a href='#'>условиями передачи информации</a>
+
+        .news
+            .container
+                h2 Новости
+                .row
+                    .col-lg-11.col-md-12
+                        .news-slider.owl-carousel.owl-theme
+                            a.item(href='#')
+                                .image(style='background-image: url(../img/newsimg1.png);')
+                                .title
+                                    p Каппы нового поколения
+                                    svg(xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18" fill="none")
+                                        path(d="M21 9L1 9" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                        path(d="M21 9L13 17" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                        path(d="M21 9L13 1" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                            a.item(href='#')
+                                .image(style='background-image: url(../img/newsimg2.png);')
+                                .title
+                                    p Реакция зубов на холодное
+                                    svg(xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18" fill="none")
+                                        path(d="M21 9L1 9" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                        path(d="M21 9L13 17" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                        path(d="M21 9L13 1" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                            a.item(href='#')
+                                .image(style='background-image: url(../img/newsimg3.png);')
+                                .title
+                                    p Правильная чистка зубов
+                                    svg(xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18" fill="none")
+                                        path(d="M21 9L1 9" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                        path(d="M21 9L13 17" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                        path(d="M21 9L13 1" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                            a.item(href='#')
+                                .image(style='background-image: url(../img/newsimg1.png);')
+                                .title
+                                    p Каппы нового поколения
+                                    svg(xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18" fill="none")
+                                        path(d="M21 9L1 9" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                        path(d="M21 9L13 17" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                                        path(d="M21 9L13 1" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+
+        .reviews
+            .container
+                h2 Отзывы
+                .row
+                    .col-lg-11.col-md-12
+                        .reviews-slider.owl-carousel.owl-theme
+                            a.item.video(style='background-image: url(../img/reviewsvideo.png);' data-fancybox="video-gallery" href="https://www.youtube.com/watch?v=z2X2HaTvkl8")
+                                svg(xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none")
+                                    circle(cx="50" cy="50" r="48" stroke="white" stroke-width="4")
+                                    path(d="M69.4682 47.8087C71.3578 48.9823 71.3578 51.732 69.4682 52.9056L42.7971 69.4707C40.7987 70.7119 38.2143 69.2748 38.2143 66.9223L38.2143 33.792C38.2143 31.4395 40.7987 30.0023 42.7971 31.2436L69.4682 47.8087Z" fill="white")
+                            .item
+                                .user
+                                    img(src='/img/user.png')
+                                    .name Михаил
+                                .description
+                                    p Лечусь у Елены Сурмило много лет. Впервые попал в кинику на м.Спортивная неделю назад. Очень уютно, по домашнему. Угостили вкусным кофе. Доктор Елена как всегда выше всяких похвал! Приятно удивило оборудование и оснащение клиники, которое я раньше нигде не встречал.
+                            .item
+                                .user
+                                    img(src='/img/user.png')
+                                    .name Михаил
+                                .description
+                                    p Лечусь у Елены Сурмило много лет. Впервые попал в кинику на м.Спортивная неделю назад. Очень уютно, по домашнему.
+                        .buttons
+                            button.btn(type='button') Отправить заявку
+                            a.btn(href='#') Смотреть все отзывы
+
+        .gallery
+            .container
+                h2 Фото клиники
+                .row
+                    .col-lg-11.col-md-12
+                        .gallery-slider.owl-carousel.owl-theme
+                            .item
+                                a.image.mini(style='background-image: url(../img/gallery1.png);' data-fancybox="gallery" href='../img/gallery1.png')
+                                a.image.mini(style='background-image: url(../img/gallery2.png);' data-fancybox="gallery" href='../img/gallery2.png')
+                            .item
+                                a.image(style='background-image: url(../img/gallery3.png);' data-fancybox="gallery" href='../img/gallery3.png')
+                            .item
+                                a.image(style='background-image: url(../img/gallery4.png);' data-fancybox="gallery" href='../img/gallery4.png')
+                            .item
+                                a.image(style='background-image: url(../img/gallery3.png);' data-fancybox="gallery" href='../img/gallery3.png')
+
+
+        include modules/footer.pug
+        include modules/mobile-menu.pug
+        //objects
+        include modules/scripts.pug

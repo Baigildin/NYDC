@@ -1,0 +1,1 @@
+<p>Cozy environment <br>in the clinic</p>

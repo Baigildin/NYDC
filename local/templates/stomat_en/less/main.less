@@ -1,0 +1,668 @@
+@media screen and (max-width: 1500px){
+
+}
+@media screen and (max-width: 1380px){
+
+}
+@media screen and (max-width: 1200px){
+
+}
+// mobile
+@media screen and (max-width: 1050px){ // for tablet pro
+
+}
+@media screen and (max-width: 990px){ // for tablet
+
+}
+@media screen and (max-width: 760px){ // for mobile phone
+
+}
+@media screen and (max-width: 375.9px){ // for mobile phone
+
+}
+@media screen and (max-width: 374.9px){ // for mobile phone mini
+
+}
+
+body{
+  font-family: "Mulish",sans-serif;
+  background: #FFFFFF;
+  padding-top: 75px;
+  //@media screen and (max-width: 990px){ // for tablet
+  //  padding-top: 80px;
+  //}
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+}
+.container{
+  @media (min-width: 1200px){
+    max-width: 1340px;
+  }
+}
+
+h1{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 65px;
+  color: #202020;
+  @media screen and (max-width: 760px){ // for mobile phone
+    font-size: 44px;
+    line-height: 46px;
+  }
+  @media screen and (max-width: 375.9px){ // for mobile phone
+    font-size: 42px;
+    line-height: 54px;
+  }
+}
+
+h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  color: #202020;
+  //font-weight: bold;
+  //font-size: 40px;
+  //line-height: 48px;
+  //color: #202020;
+  //margin: 0;
+  //@media screen and (max-width: 990px){ // for tablet
+  //  font-size: 34px;
+  //  line-height: 38px;
+  //}
+  //@media screen and (max-width: 760px){ // for mobile phone
+  //  font-size: 28px;
+  //  line-height: 28px;
+  //  text-align: center;
+  //}
+}
+
+.wa-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 36px;
+  padding: 15px 30px 15px 55px;
+  background-image: url("../img/whatsapp.png");
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  text-decoration: none !important;
+  @media screen and (max-width: 1300px){ // for tablet pro
+    margin-left: auto;
+    margin-right: 30px;
+  }
+  @media screen and (max-width: 990px){ // for tablet
+    font-size: 14px;
+    padding: 12px 20px 12px 50px;
+    margin-right: 20px;
+  }
+  @media screen and (max-width: 760px){ // for mobile phone
+    display: none;
+  }
+  &:hover{
+    color: #ffffff;
+    background-color: #202020;
+  }
+}
+
+.fixed{
+  position: fixed;
+  width: 100%;
+  top: 600px;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  @media screen and (max-width: 990px){ // for tablet
+    top: inherit;
+    bottom: 0;
+    background: #202020;
+  }
+  .container{
+    position: relative;
+  }
+}
+
+.breadcrumb{
+  height: 55px;
+  margin: 0;
+  background: #ffffff;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  ul{
+    list-style: none;
+    padding: 0 0 0 110px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    @media screen and (max-width: 1200px){
+      padding-left: 0px;
+    }
+    @media screen and (max-width: 990px){ // for tablet
+      padding: 0 0 0 0px;
+    }
+    li{
+      background-image: url("../img/brarrow.svg");
+      background-repeat: no-repeat;
+      background-position: 93% 63%;
+      padding-right: 20px;
+      &:last-child{
+        background: none;
+        padding-right: 0px;
+        a{
+          color: #202020;
+          pointer-events: none;
+        }
+      }
+      a{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 15px;
+        color: #868686;
+      }
+    }
+  }
+}
+
+#map{
+  width: 100%;
+  height: 385px;
+  margin: 25px 0 80px 0;
+  @media screen and (max-width: 990px){ // for tablet
+    margin: 25px 0 35px 0;
+  }
+}
+
+.sidebar{
+  position: absolute;
+  border-radius: 60px;
+  background: #202020;
+  padding: 30px 0;
+  bottom: 10px;
+  right: 15px;
+  width: 80px;
+  @media screen and (max-width: 990px){ // for tablet
+    width: 100%;
+    position: inherit;
+    bottom: inherit;
+    right: inherit;
+    padding: 15px 0;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    @media screen and (max-width: 990px){ // for tablet
+      display: flex;
+      justify-content: space-around;
+    }
+    @media screen and (max-width: 760px){ // for mobile phone
+      justify-content: space-between;
+    }
+    li{
+      padding-bottom: 35px;
+      @media screen and (max-width: 990px){ // for tablet
+        padding-bottom: 0;
+      }
+      &:last-child{
+        padding: 0;
+      }
+      a{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+        text-decoration: none !important;
+        svg{
+          margin-bottom: 5px;
+          @media screen and (max-width: 760px){ // for mobile phone
+            width: 35px;
+          }
+        }
+        &.active, &:hover{
+          svg{
+            path{
+              stroke: rgba(253, 231, 183, 1);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#up-arrow{
+  width: 40px;
+  height: 40px;
+  border: 2px solid #202020;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 35px;
+  bottom: -60px;
+  display: none;
+  @media screen and (max-width: 990px){ // for tablet
+    bottom: 120px;
+  }
+  @media screen and (max-width: 760px){ // for tablet
+    right: 15px;
+  }
+  &.active{
+    display: flex;
+  }
+  &.disabled{
+    display: none !important;
+  }
+}
+
+.top-tel{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  @media screen and (max-width: 760px){ // for mobile phone
+    display: none;
+  }
+  &:hover{
+    color: #000000;
+  }
+}
+
+.lang{
+  background: #FFFFFF;
+  border-radius: 25px;
+  @media screen and (max-width: 1300px){ // for tablet pro
+    margin-left: 30px;
+  }
+  @media screen and (max-width: 990px){ // for tablet
+    margin-left: 30px;
+  }
+  @media screen and (max-width: 760px){ // for mobile phone
+    margin-left: auto;
+  }
+  .dropdown-toggle{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 25px;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    outline: none;
+    padding: 0;
+    img{
+      margin-right: 8px;
+      width: 16px;
+      height: 16px;
+    }
+    svg{
+      margin-left: 10px;
+      margin-top: 6px;
+    }
+    &:after{
+      display: none;
+    }
+  }
+  .dropdown-menu{
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 4px 10px;
+    outline: none;
+    min-width: 70px;
+  }
+  .dropdown-item{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+    padding: 6px 0;
+    img{
+      margin-right: 8px;
+      width: 16px;
+      height: 16px;
+    }
+    &:hover{
+      background: transparent;
+    }
+  }
+}
+
+.mobile-filter {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #202020;
+  border-radius: 50%;
+  display: none;
+  position: fixed;
+  right: 59px;
+  bottom: 175px;
+  z-index: 5;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: rgba(255,255,255,.5);
+  @media screen and (max-width: 990px){ // for tablet
+    display: flex;
+  }
+  @media screen and (max-width: 760px){ // for mobile phone
+    right: 15px;
+  }
+}
+
+.mobile-menu{
+  width: 100%;
+  height: auto;
+  position: fixed;
+  right: 0;
+  top: 75px;
+  padding: 0 0 20px 0;
+  transform: translateY(-100%);
+  transition: .6s;
+  z-index: 9;
+  //overflow: auto;
+  background: #ffffff;
+  ul{
+    display: flex;
+    flex-direction: column;
+    li{
+      padding: 5px 9px;
+      a{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        color: #000000;
+        &:hover{
+          color: #000000;
+        }
+      }
+    }
+  }
+  .top-tel{
+    display: none;
+    @media screen and (max-width: 760px){ // for mobile phone
+      display: block;
+      font-size: 16px;
+      margin: 10px 0 15px 10px;
+    }
+  }
+  .wa-link{
+    display: none;
+    @media screen and (max-width: 760px){ // for mobile phone
+      display: flex;
+      width: max-content;
+      margin-left: 10px;
+    }
+  }
+}
+
+.visible{
+  transform: translateY(0)!important;
+  transform: translateX(0)!important;
+}
+
+#hidden-block{
+  position: fixed;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  z-index: 8;
+}
+
+.hidden-active{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.select-box {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #60666d;
+  z-index: 1;
+}
+.select-box__current {
+  position: relative;
+  box-shadow: 0 15px 30px -10px transparentize(#000, 0.9);
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #FFFFFF;
+  &.active{
+    & + .select-box__list {
+      opacity: 1;
+      padding: 30px 60px 40px 30px;
+      // We have to set "animation-name: none;" to make the list visible (read below how it works)
+
+      animation-name: none;
+
+      .select-box__option {
+        cursor: pointer;
+      }
+    }
+    .select-box__icon {
+      transform: translateY(-50%) rotate(270deg);
+    }
+  }
+  //&:focus {
+  //  & + .select-box__list {
+  //    opacity: 1;
+  //
+  //    // We have to set "animation-name: none;" to make the list visible (read below how it works)
+  //
+  //    animation-name: none;
+  //
+  //    .select-box__option {
+  //      cursor: pointer;
+  //    }
+  //  }
+  //
+  //  .select-box__icon {
+  //    transform: translateY(-50%) rotate(270deg);
+  //  }
+  //}
+}
+
+.select-box__icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%) rotate(90deg);
+  width: 20px;
+  height: 15px;
+  transition: 0.2s ease;
+}
+
+.select-box__value {
+  display: flex;
+}
+
+.select-box__input {
+  display: none;
+
+  &:checked + .select-box__input-text {
+    display: block;
+  }
+}
+
+.select-box__input-text {
+  display: none;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.select-box__list {
+  position: absolute;
+  width: 100%;
+  height: 635px;
+  overflow-y: scroll;
+  padding: 0;
+  list-style: none;
+  opacity: 0;
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    //background: #000000;
+    //border-radius: 15px;
+  }
+  &::-webkit-scrollbar-thumb {
+    height: 125px;
+    background: #AEAEAE;
+    border-radius: 15px;
+  }
+  background: #FFFFFF;
+  border: 2px solid #EBEBEB;
+  border-radius: 0px 0px 8px 8px;
+
+  & > li:first-child{
+    label{
+      color: #868686;
+    }
+  }
+
+  // We need to use animation with delay.
+  // Otherwise the click event will not have time to run on label, because this element disapears immediately when .select-box__current element loses the focus.
+  // This delay will not be noticed because we set "opacity" to "0".
+  // We also use "animation-fill-mode: forwards" to make the list stay hidden.
+
+  animation-name: HideList;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: step-start;
+  box-shadow: 0 15px 30px -10px transparentize(#000, 0.9);
+}
+
+.select-box__option {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  display: block;
+  padding: 10px 0;
+  background-color: #ffffff;
+  margin-bottom: 0;
+  border-top: none;
+}
+
+@keyframes HideList {
+  from {
+    transform: scaleY(1);
+  }
+  to {
+    transform: scaleY(0);
+  }
+}
+
+////////////////////////////////menu-icon
+.menu-icon {
+  display: none;
+  height: 30px;
+  width: 30px;
+  margin-left: 30px;
+  @media screen and (max-width: 1300px){ // for tablet pro
+    display: block;
+  }
+  @media screen and (max-width: 990px){ // for tablet
+    margin-left: 20px;
+  }
+}
+
+.menu-icon > span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin-top: 6px;
+  background-color: transparent;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, 0);
+}
+
+.menu-icon > span::before {
+  content: '';
+  top: 0;
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #202020;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.menu-icon > span::after {
+  content: '';
+  top: 12px;
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #202020;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.menu-icon.active span {
+  transform: translateY(6px);
+}
+.menu-icon.active span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+.menu-icon.active span::after{
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+
+

@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Documents";
+$arDirProperties = Array(
+
+);
+?>

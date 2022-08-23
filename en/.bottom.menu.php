@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"About", 
+		"/en/o-nas/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Specialists", 
+		"/en/spetsialisty/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Photogallery", 
+		"/en/fotogalereya/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

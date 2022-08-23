@@ -1,0 +1,22 @@
+.modal-diplom.modal.fade(tabindex="-1" role="dialog" data-keyboard="false" aria-hidden="true")
+    .modal-dialog.modal-dialog-centered(role="document")
+        .modal-content
+            button.close-popup(type="button" data-dismiss="modal" aria-hidden="true")
+                svg(xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none")
+                    path(d="M18.25 1.75195L1.75085 18.2511" stroke="#202020" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel")
+                    path(d="M1.75 1.75L18.2492 18.2492" stroke="#202020" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel")
+            .modal-body
+                p.title Дипломы доктора
+                .diplom-slider.owl-carousel.owl-theme
+                    a.item(data-fancybox="gallery" href='../img/doc1.png')
+                        img(src='../img/doc1.png')
+                    a.item(data-fancybox="gallery" href='../img/doc2.png')
+                        img(src='../img/doc2.png')
+                    a.item(data-fancybox="gallery" href='../img/doc3.png')
+                        img(src='../img/doc3.png')
+                    a.item(data-fancybox="gallery" href='../img/doc4.png')
+                        img(src='../img/doc4.png')
+                    a.item(data-fancybox="gallery" href='../img/doc5.png')
+                        img(src='../img/doc5.png')
+
+

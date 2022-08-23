@@ -1,0 +1,12 @@
+<svg width="975" height="152" viewBox="0 0 975 152" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M973 75C973 78.3277 970.398 82.1204 964.016 86.2149C957.744 90.2383 948.365 94.1937 936.097 98.0016C911.589 105.608 876.024 112.486 831.954 118.272C743.844 129.839 622.06 137 487.5 137C352.94 137 231.156 129.839 143.046 118.272C98.9764 112.486 63.4109 105.608 38.903 98.0016C26.6347 94.1937 17.2556 90.2383 10.9842 86.2149C4.60215 82.1204 2 78.3277 2 75C2 71.6723 4.60215 67.8796 10.9842 63.7851C17.2556 59.7617 26.6347 55.8063 38.903 51.9984C63.4109 44.3915 98.9764 37.5137 143.046 31.7282C231.156 20.1609 352.94 13 487.5 13C622.06 13 743.844 20.1609 831.954 31.7282C876.024 37.5137 911.589 44.3915 936.097 51.9984C948.365 55.8063 957.744 59.7617 964.016 63.7851C970.398 67.8796 973 71.6723 973 75Z" stroke="#EBEBEB" stroke-width="4"/>
+<circle cx="79" cy="42" r="16" fill="#FEE8BA"/>
+<path d="M79 34.7273V49.2727" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M71.7273 42H86.2727" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="702.993" cy="16" r="16" fill="#FEE8BA"/>
+<path d="M702.993 8.72727V23.2727" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M695.72 16H710.266" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="408" cy="136" r="16" fill="#FEE8BA"/>
+<path d="M408 128.727V143.273" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M400.727 136H415.273" stroke="#202020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

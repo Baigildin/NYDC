@@ -1,0 +1,1 @@
+<p class="title">About clinic</p>

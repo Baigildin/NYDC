@@ -1,0 +1,1 @@
+<p>©2022 New York Dental Center</p>
