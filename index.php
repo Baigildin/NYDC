@@ -1,7 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 ?>
-тест
 <?
 function RusToLat($source=false) {
     if ($source) {
